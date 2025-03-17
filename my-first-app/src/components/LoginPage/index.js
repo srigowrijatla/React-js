@@ -1,6 +1,13 @@
-const LoginPage =()=>{
-    return(
-        <div><h1>LoginPage</h1></div>
-    );
+import HomePage from "../HomePage";
 
-};export default LoginPage;
+const LoginPage = () => {
+  const user = "Gowri";
+  return (
+    <div>
+      <h1>LoginPage</h1>
+      
+      <HomePage name={user} />
+    </div>
+  );
+};
+export default LoginPage;
