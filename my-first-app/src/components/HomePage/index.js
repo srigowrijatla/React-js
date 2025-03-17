@@ -1,10 +1,7 @@
 import { useState } from "react";
-// import LoginPage from "../LoginPage";
-const HomePage = ({name}) => {
+const HomePage = ({ name }) => {
   const [count, setCount] = useState(0);
-  // const navigate=useNavigate();
   const handleCountButton = () => {
-    // navigate(LoginPage)
     setCount(count + 1);
   };
   return (
